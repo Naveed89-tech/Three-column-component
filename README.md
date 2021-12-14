@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Naveed89-tech/Three-column-component)
-- Live Site URL: [Add live site URL here](https://threecolumncomponent.netlify.app/)
+- Solution URL: [https://github.com/Naveed89-tech/Three-column-component](https://github.com/Naveed89-tech/Three-column-component)
+- Live Site URL: [https://threecolumncomponent.netlify.app/](https://threecolumncomponent.netlify.app/)
 
 ## My process
 
