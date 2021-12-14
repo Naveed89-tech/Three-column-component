@@ -16,6 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Lexend Deca", sans-serif;
+  overflow: hidden;
 }
 *:focus {
   outline: none;
@@ -41,6 +42,7 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 /* individual component  */
 .car {
   max-width: 25rem;
+
   padding: 3.2rem;
 }
 .sedan {
@@ -125,9 +127,10 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
     font-size: 56.25%;
   }
   .car {
-    padding: 3.2rem 2rem;
+    padding: 2rem 2rem;
   }
   .content {
+    padding-top: 1.2rem;
     padding-bottom: 1.4rem;
   }
   .btn {
@@ -143,36 +146,46 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
     flex-direction: column;
   }
   .car {
-    padding: 2rem;
+    padding: 1.4rem;
+    /* max-width: rem; */
   }
   .primary-heading {
     padding-top: 2.4rem;
+    font-size: 2rem;
   }
   .content {
-    padding-bottom: 1.4rem;
+    font-size: 1.4rem;
   }
   .btn {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1.6rem;
+  }
+  .logo {
+    width: 4rem;
+    height: auto;
   }
 }
 /*****************/
 /* Less than 500px mobile ter*
 400/16=42em/
 /*****************/
-@media (max-width: 25em) {
+@media (max-width: 26em) {
+  body {
+    overflow: auto;
+  }
   .car {
-    padding: 1.8rem;
+    padding-top: 1.2rem;
+    max-width: 30rem;
   }
   .primary-heading {
     padding-top: 1.4rem;
-    font-size: 2.4;
+    font-size: 1.8rem;
   }
   .content {
     padding-bottom: 1rem;
   }
   .btn {
-    margin-top: 0;
-    margin-bottom: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
   }
 }
